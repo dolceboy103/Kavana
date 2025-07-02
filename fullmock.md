@@ -1,12 +1,14 @@
 # Fullmock
+## Table of Contents
+1. [Screen 1 – Landing Page / Entry Flow](#screen-1--landing-page--entry-flow)
+2. [Screen 2 – Land Unit Smart Dashboard](#screen-2--land-unit-smart-dashboard)
+3. [Screen 3 – AI Assistant Console](#screen-3--ai-assistant-console)
+4. [Screen 4 – Feasibility Deep Dive](#screen-4--feasibility-deep-dive)
+5. [Screen 5 – Document Generator & Compliance Exporter](#screen-5--document-generator--compliance-exporter)
+6. [Screen 6 – ROI & Layout Planner](#screen-6--roi--layout-planner)
+7. [Screen 7 – Multi-Agent Logs & Debug Console](#screen-7--multi-agent-logs--debug-console)
 
-yes, start with Screen 1; (remember the whitelabel tho)
-
-
-
-ChatGPT said:
-Perfect. Let's begin.
-
+---
 🟦 Screen 1 – Landing Page / Entry Flow (White-labeled LayoutGPT)
 🎯 Purpose
 The landing screen is the first touchpoint for a layout developer (or any stakeholder). It should:
