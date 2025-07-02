@@ -1,9 +1,11 @@
+# Fullmock
+
 yes, start with Screen 1; (remember the whitelabel tho)
 
 
 
 ChatGPT said:
-Perfect. Let’s begin.
+Perfect. Let's begin.
 
 🟦 Screen 1 – Landing Page / Entry Flow (White-labeled LayoutGPT)
 🎯 Purpose
@@ -13,16 +15,16 @@ Establish trust with branding + regulatory legitimacy
 
 Allow instant start with minimal friction
 
-Adapt visually for white-label clients (e.g., show “Powered by LayoutGPT” but allow custom logos/themes)
+Adapt visually for white-label clients (e.g., show "Powered by LayoutGPT" but allow custom logos/themes)
 
 🖼️ 1. Branding Area (Top Hero Section)
-Logo (White-labeled): Placeholder top-left → “Your Company Logo”
+Logo (White-labeled): Placeholder top-left → "Your Company Logo"
 
-Tagline (editable): “Smart Land Feasibility & Compliance Dashboard”
+Tagline (editable): "Smart Land Feasibility & Compliance Dashboard"
 
-Subtext: “Built on the Bangalore Layout Intelligence Engine”
+Subtext: "Built on the Bangalore Layout Intelligence Engine"
 
-✅ Optional small footer: “Powered by LayoutGPT”
+✅ Optional small footer: "Powered by LayoutGPT"
 
 📥 2. Land Unit Access Panel (Primary CTA Block)
 A. Option 1 – Quick Import via Bhoomi
@@ -32,19 +34,19 @@ Input Field 2: Survey Number (freeform)
 
 ✅ Optional: Landowner Name (for RTC lookup)
 
-🔘 Button: “🔍 Import from Bhoomi”
+🔘 Button: "🔍 Import from Bhoomi"
 
 B. Option 2 – Upload Land Sketch / Map
 Drag & Drop Upload Zone
 
 Accepts: PDF, PNG, JPEG, DOCX
 
-Text: “Upload Revenue Sketch, Katha, or Converted Plot Map”
+Text: "Upload Revenue Sketch, Katha, or Converted Plot Map"
 
-🔘 Button: “📤 Upload & Proceed”
+🔘 Button: "📤 Upload & Proceed"
 
 C. Option 3 – Manual Entry
-Link Button: “✍️ Enter Details Manually”
+Link Button: "✍️ Enter Details Manually"
 
 ⚙️ 3. Advanced Options (Expandable Section)
 Checkboxes:
@@ -80,7 +82,7 @@ All colors, logos, and labels are parameterized from the partner config
 
 Whitelabel toggles:
 
-Show “Powered by LayoutGPT” (default: ON)
+Show "Powered by LayoutGPT" (default: ON)
 
 Replace domain-specific labels (e.g., show "X Ventures Smart Land Tool")
 
@@ -100,7 +102,7 @@ Screen 2: Land Unit Dashboard View
 
 
 ChatGPT said:
-Excellent. Let’s map out Screen 2: Land Unit Dashboard View, the core UX hub of LayoutGPT.
+Excellent. Let's map out Screen 2: Land Unit Dashboard View, the core UX hub of LayoutGPT.
 
 🟩 Screen 2 – Land Unit Smart Dashboard
 🎯 Purpose
@@ -113,15 +115,15 @@ Runs AI agent evaluations (feasibility, compliance, valuation)
 Serves as the base context for all further workflows and exports
 
 🧱 1. Dashboard Header (Sticky Top)
-🔖 Land Unit ID: e.g., “Anekal–Huskur–257/3A”
+🔖 Land Unit ID: e.g., "Anekal–Huskur–257/3A"
 
-🗺️ Button: “🗺 View on Map”
+🗺️ Button: "🗺 View on Map"
 
-🧾 Button: “📤 Download Full Report (PDF/ZIP)”
+🧾 Button: "📤 Download Full Report (PDF/ZIP)"
 
-🔁 Button: “♻️ Re-run AI Agents”
+🔁 Button: "♻️ Re-run AI Agents"
 
-🧠 Button: “🧠 Ask AI About This Plot” → Jumps to Assistant Console
+🧠 Button: "🧠 Ask AI About This Plot" → Jumps to Assistant Console
 
 🧮 2. Summary Score Cards (Top Row Tiles)
 Each card shows score + mini status bar:
@@ -155,7 +157,7 @@ RERA Status: Registered / Not Registered
 
 BDA Status: Approved / Pending
 
-🔘 Option: “Show Legal Notes (AI Generated)”
+🔘 Option: "Show Legal Notes (AI Generated)"
 
 C. 🚨 Red Flags Panel
 Greenbelt + No conversion
@@ -175,7 +177,7 @@ Price zone: Hot / Cold / Mid
 
 Historical appreciation signal (if available)
 
-AI Tips: “This land is undervalued vs nearby RERA plots”
+AI Tips: "This land is undervalued vs nearby RERA plots"
 
 E. 🗺️ Geo Overlay (Mini Map Panel)
 Satellite + CDP overlay
@@ -194,7 +196,7 @@ Layouts with RERA
 
 🧠 4. AI Assistant Trigger (Floating Button)
 Always-visible floating button:
-“Ask AI About This Plot”
+"Ask AI About This Plot"
 
 Opens side panel: conversational interface (next screen)
 
@@ -210,7 +212,7 @@ Theme, color, and label branding consistent with client
 
 Reports downloadable with custom branding
 
-“Powered by LayoutGPT” visible only in internal log/export metadata unless toggled ON
+"Powered by LayoutGPT" visible only in internal log/export metadata unless toggled ON
 
 Would you like to:
 
@@ -249,13 +251,13 @@ Works as a universal interface across all stakeholder modes
 🧠 1. Chat Interface Core
 🗨️ Chat Window (center panel):
 
-System prompt: “Ask me anything about this land unit (e.g., ‘Is this layout RERA-ready?’)”
+System prompt: "Ask me anything about this land unit (e.g., 'Is this layout RERA-ready?')"
 
 Past conversation history visible (for that land unit only)
 
 AI messages styled like advisory cards:
 
-e.g., ✅ “This plot is within the yellow residential zone, conversion valid, but RERA not yet applied.”
+e.g., ✅ "This plot is within the yellow residential zone, conversion valid, but RERA not yet applied."
 
 📝 User Input Bar (sticky bottom):
 
@@ -267,21 +269,21 @@ Rich input: text + file upload
 Dynamic based on stakeholder role. Examples:
 
 For Layout Developer:
-“Is this plot layoutable?”
+"Is this plot layoutable?"
 
-“Any zoning mismatch?”
+"Any zoning mismatch?"
 
-“Feasibility score breakdown?”
+"Feasibility score breakdown?"
 
 For Legal Advisor:
-“Show EC and mutation status”
+"Show EC and mutation status"
 
-“List all legal red flags”
+"List all legal red flags"
 
 For Architect:
-“How much land is usable after buffers?”
+"How much land is usable after buffers?"
 
-“Can I propose a 9m road grid?”
+"Can I propose a 9m road grid?"
 
 🔘 Tap = instantly pre-fills chat input bar.
 
@@ -292,7 +294,7 @@ Land Unit ID + key attributes (zoning, conversion, EC)
 
 Agent status: ✅ Feasibility Agent | ✅ Red Flag Agent | ⏳ Layout Suggestion Agent
 
-Toggle: “Show Full Input JSON” (for dev/debug mode)
+Toggle: "Show Full Input JSON" (for dev/debug mode)
 
 🧩 4. Output Enhancers
 Each AI message can be:
@@ -315,7 +317,7 @@ View raw input → prompt → output path
 For power users or audit trails
 
 🧑‍💼 6. White-label/Branding Notes
-Voice tone and signature can match client branding (e.g., “LandIQ Assistant”)
+Voice tone and signature can match client branding (e.g., "LandIQ Assistant")
 
 Agent signature/footer can be hidden or rebranded
 
@@ -381,7 +383,7 @@ Current Zoning (from CDP 2031): Residential / Industrial / Greenbelt / Mixed
 
 Conversion Order (if any): shows order number, match with CDP?
 
-🔁 Mismatch Highlight: “CDP shows Greenbelt, but conversion is residential — risky.”
+🔁 Mismatch Highlight: "CDP shows Greenbelt, but conversion is residential — risky."
 
 🧰 4. Access & Infrastructure Check
 Checklist with ✅ or ❌ indicators:
@@ -413,17 +415,17 @@ Shows which agents contributed to the score:
 
 Hover/click: shows what each sub-agent found
 
-Button: “Show Raw Evaluation Tree” (for developers/advanced audit)
+Button: "Show Raw Evaluation Tree" (for developers/advanced audit)
 
 📁 6. Export Options
-“📄 Download Feasibility Report”
+"📄 Download Feasibility Report"
 
-“📤 Add to Final Layout Dossier”
+"📤 Add to Final Layout Dossier"
 
-“🧠 Send to AI Assistant for Further Review”
+"🧠 Send to AI Assistant for Further Review"
 
 🎨 White-label Notes
-Visual cards and logic explanation branded with client’s color palette
+Visual cards and logic explanation branded with client's color palette
 
 Report exports carry logo + layout partner details
 
@@ -490,7 +492,7 @@ Based on agency (auto-detected from region):
 
 📋 RERA: Project Registration Cover Sheet
 
-✅ Checkbox view: “Is EC clean?” → Auto-checked from DB
+✅ Checkbox view: "Is EC clean?" → Auto-checked from DB
 
 🔘 Download ready-to-print checklist for submission
 🔘 Or prefill Google Form / online format where applicable
@@ -520,7 +522,7 @@ CDP map snapshot
 
 BDA/RERA approvals (if found)
 
-Optional: Branded cover page (“Prepared by X Ventures using LayoutGPT”)
+Optional: Branded cover page ("Prepared by X Ventures using LayoutGPT")
 
 Timestamp + digital signature block (optional)
 
@@ -531,16 +533,16 @@ Data source (e.g., Bhoomi link)
 
 Extracted field (e.g., kharab = 12%)
 
-Generated report line (e.g., “Kharab portion exists, layout approval must exclude it”)
+Generated report line (e.g., "Kharab portion exists, layout approval must exclude it")
 
 ✅ Legal Advisor mode can export as opinion draft.
 
 🎨 White-label Notes
 Headers, signatures, watermarks, cover pages — all client-replaceable
 
-“Powered by LayoutGPT” shows only in audit logs unless branding enabled
+"Powered by LayoutGPT" shows only in audit logs unless branding enabled
 
-Exported ZIP and PDFs carry custom filename format (e.g., “ClientName-PlotID-CompliancePack.zip”)
+Exported ZIP and PDFs carry custom filename format (e.g., "ClientName-PlotID-CompliancePack.zip")
 
 Would you like to:
 
@@ -598,7 +600,7 @@ Outputs:
 📊 Profit Sensitivity: slider to simulate rate fluctuation
 
 🔘 Option: Export ROI Summary PDF
-🔘 Option: “Send to AI for Tip” → Assistant suggests layout tweaks to boost profit
+🔘 Option: "Send to AI for Tip" → Assistant suggests layout tweaks to boost profit
 
 🗺️ 2. Mini Layout Sketch Panel (AI Assisted)
 Auto-suggest:
@@ -617,7 +619,7 @@ RERA compliance check
 
 Visual map: toggle between draft sketch and zoning overlay
 
-🔘 “Edit Layout Proposal” → jumps to Doc Generator (Screen 5)
+🔘 "Edit Layout Proposal" → jumps to Doc Generator (Screen 5)
 
 📦 3. Pricing Slab Suggestion
 Based on:
@@ -637,13 +639,13 @@ Corner Sites: ₹2500–₹2700
 Risk-adjusted ROI from Investor Agent (shown if enabled)
 
 🧠 4. AI Strategy Insights Panel
-“You're better off plotting 40 sites of 30x40 than 25 of 40x60”
+"You're better off plotting 40 sites of 30x40 than 25 of 40x60"
 
-“Avoid 20 ft roads — not compliant with BDA norms”
+"Avoid 20 ft roads — not compliant with BDA norms"
 
-“Drain access missing — consider infra cost in ROI”
+"Drain access missing — consider infra cost in ROI"
 
-🔘 Button: “Chat with AI About ROI Plan”
+🔘 Button: "Chat with AI About ROI Plan"
 
 🔁 5. Versioning & Scenario Comparison
 Save different ROI scenarios
@@ -722,10 +724,10 @@ Output Summary (final result shown in dashboard)
 
 Warnings/Flags (if any)
 
-Agent Notes: “Used 2023 CDP data overlay”
+Agent Notes: "Used 2023 CDP data overlay"
 
 ✅ Option: Copy full input/output JSON
-🔁 Button: “Re-run Agent with Override” (e.g., override zoning manually)
+🔁 Button: "Re-run Agent with Override" (e.g., override zoning manually)
 
 📦 3. Manual Override + Agent Trigger Panel
 Allows superusers to:
@@ -763,7 +765,7 @@ Hide raw logs (default for normal users)
 
 Allow debug view for legal/compliance tier only
 
-Branded error messages and tip overlays (“Ask Your Legal Team”)
+Branded error messages and tip overlays ("Ask Your Legal Team")
 
 This completes the core 7-screen LayoutGPT MVP stack.
 
@@ -773,4 +775,4 @@ A final UX summary with navigation flow,
 
 A wireframe sketch suggestion screen-by-screen, or
 
-To add bonus screens like “Investor Summary,” “Legal Risk Drilldown,” or “NGT/Drainage Overlay”?
+To add bonus screens like "Investor Summary," "Legal Risk Drilldown," or "NGT/Drainage Overlay"?
